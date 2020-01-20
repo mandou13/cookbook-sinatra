@@ -8,5 +8,5 @@ configure :development do
 end
 
 get '/' do
-  'Salut!'
+  erb :index
 end
